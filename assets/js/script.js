@@ -17,3 +17,8 @@
     // store those values on local storage
     // display message (alert)
 // use key event
+// use keyboard event
+// use array
+// loops and iteration
+// setInterval
+// use localStorage
