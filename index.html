@@ -3,25 +3,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess the Word!</title>
+    <title>Guess the Word Game!</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>Word Guess Game</h1>
-    <div>
-        <button id="start">Start Game</button>
-    </div>
+    <header>
+        <h1 class="header-font">Word Guess Game</h1>
+        <button class="start-button">Start Game</button>
+    </header>
 
-    <div id="game">
-        <h2>Guess the Word!</h2>
-        <input type="text">
-    </div>
+    <main>
+        <Section>
+            <div class="word-game">
+              <div class="word-blanks">J _ v _ S c r _ _ t</div>  
+            </div>
+        </Section>
 
-    <div id="stats">
-        Wins/Losses
-    </div>
+        <section>
+                <div class="stats">
+                    <div class="win-loss">
+                    <div>
+                    <h2>Wins: <span class="win">0 </span></h2>
+                    <h2>Losses: <span class="lose">0</span></h2>
+                </div>
+                    <button class="reset-game">Reset Score</button>
+            </div>
+                <div class="timer">
+                    <div class="timer-text">
+                    <div class="timer-count">10</div>
+                    <h3>Seconds remaining</h3>
+                </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
     
- <script src="./assets/js/script.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
 
