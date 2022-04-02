@@ -54,7 +54,7 @@ function init() {
 
 //function to start the game by pressing start game button
 function startGame () {
-    win = false;
+    isWin = false;
     timeLeft = 10;
     //prevent start button from being pressed during ongoing game
     startButton.disabled = true;
